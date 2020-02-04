@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Etch-a-Sketch</title>
+</head>
+
+<style>
+body {
+    background-color: rgb(34, 33, 33);
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 12px solid red;
+    margin: 0 auto;
+    display: grid;
+    
+}
+
+.newDivs {
+    border:1px solid red;
+}
+
+
+
+h1 {
+    color:red;
+    text-align:center;
+    font-size:2.5em;
+}
+
+.resetButton {
+    position:relative;
+    top: -16px;
+    left: 500px;
+    width:130px;
+    height: 45px;
+    background-color: red;
+    border: none;
+}
+
+button:active {
+    background-color: rgb(41, 6, 6);
+    color: red;
+}
+
+
+</style>
+
+<body>
+
+<h1>ETCH A SKETCH</h1>
+
+<button class='resetButton'>RESET</button> <br>
+
+
+
+<div class='container'></div>
+
+
+
+
+
+</body>
+
+
+<script src="app.js"></script>
+
+
+</html>
